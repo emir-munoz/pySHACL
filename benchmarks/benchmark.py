@@ -10,7 +10,7 @@ import pyshacl
 from os import path
 
 target_ttl_file = \
-    '../tests/resources/tests/core/complex/personexample.test.ttl'
+    '../test/resources/dash_tests/core/complex/personexample.test.ttl'
 target_ttl_file = path.abspath(target_ttl_file)
 target_graph = rdflib.Graph()
 with open(target_ttl_file, 'rb') as file:
